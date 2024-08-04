@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Haha haa</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="converter">
+            <div class="convert">
+                <textarea id="textToBinary" placeholder="Input" required=""></textarea>
+                <button onclick="convertTextToBinary()">CONVERT</button>
+                <textarea id="binaryResult" placeholder="Output" readonly></textarea>
+            </div>
+            
+            
+            
+            <div class="convert">
+                <textarea id="binaryToText" placeholder="Input" required=""></textarea>
+                
+                <button onclick="convertBinaryToText()">CONVERT</button>
+                
+                <textarea id="textResult" placeholder="Output" readonly></textarea>
+            </div>
+        </div>
+        <div class="waterMark">NEAZ MAHMUD SAMIRツ</div>
+    </div>
+    <script src="script.js"></script>
+    
+    <!-- Add this before the closing </body> tag -->
+<div id="otpContainer" class="otp-container">
+    <div class="otp-box">
+        <h2 id="otpTitle">Set Password</h2>
+        <div id="otpInputs" class="otp-inputs">
+            <!-- Dynamically generate OTP input fields -->
+        </div>
+        <button id="submitOtp">Submit</button>
+        <div id="otpError" class="error-message"></div>
+    </div>
+</div>
+
+</div>
+</body>
+</html>
